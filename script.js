@@ -28,7 +28,7 @@ function typeLetter(){
     if (i < letterText.length){
       typeTarget.textContent += letterText.charAt(i);
       i++;
-      setTimeout(step, 18);
+      setTimeout(step, 100);
     }
   }
   step();
